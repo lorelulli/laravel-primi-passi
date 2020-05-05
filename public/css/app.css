@@ -10900,6 +10900,7 @@ header li {
 header .hamburger {
   display: none;
   font-size: 35px;
+  margin-bottom: 70px;
 }
 
 @media screen and (max-width: 800px) {

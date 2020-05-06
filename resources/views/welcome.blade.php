@@ -13,6 +13,6 @@
 
     </head>
     <body>
-        <a href="{{route('home')}}">Homepage</a>
+        @include('partials.header')
     </body>
 </html>

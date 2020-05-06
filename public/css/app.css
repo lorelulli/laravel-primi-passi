@@ -10909,6 +10909,10 @@ header .hamburger {
   }
 }
 
+main {
+  background-image: url(/images/sfondo.jpg?06a79f19fbb4489a17e2dff67ce37137);
+}
+
 main .container-cards {
   width: 80%;
   margin: 0 auto;

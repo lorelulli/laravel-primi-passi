@@ -10966,6 +10966,44 @@ main .container-cards .hover h2 {
   font-size: 14px;
 }
 
+.card-background {
+  background-color: #B8DAE5;
+}
+
+.card-background .card-products {
+  position: relative;
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+  color: blue;
+  padding-bottom: 50px;
+}
+
+.card-background .card-products img {
+  width: 100%;
+}
+
+.card-background .card-products .sinistra {
+  position: absolute;
+  top: 50%;
+}
+
+.card-background .card-products .sinistra i {
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.card-background .card-products .destra {
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+
+.card-background .card-products .destra i {
+  font-size: 40px;
+  cursor: pointer;
+}
+
 * {
   margin: 0;
   padding: 0;

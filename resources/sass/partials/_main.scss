@@ -17,6 +17,7 @@ main{
                 position: relative;
                 flex-basis: calc(100% / 3 - 40px);
                 margin: 20px;
+                
                 @media screen and (max-width: 800px) {
 
                flex-basis: calc(100% / 2 - 40px);

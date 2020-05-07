@@ -11007,6 +11007,10 @@ footer .up .terza p {
   font-size: 12px;
 }
 
+footer .down img {
+  width: 100%;
+}
+
 .card-background {
   background-color: #B8DAE5;
 }

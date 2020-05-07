@@ -6,7 +6,7 @@
 
     <nav>
         <ul>
-            <li><a href="#">Home</a> </li>
+            <li><a href="{{route('welcome')}}">Home</a> </li>
             <li><a href="{{route('products')}}">Prodotti</a></li>
             <li><a href="{{route('contacts')}}">Contatti</a></li>
 

@@ -22,7 +22,7 @@ $card = $cards[$id];
 
                 <div class="sinistra">
                     @if ($id == 0)
-                        <i class="fas fa-chevron-left"></i>
+                        <a href="{{route('products.show', count($cards) - 1)}}"><i class="fas fa-chevron-left"></i></a>
                     @else
                         <a href="{{route('products.show', ($id - 1))}}"><i class="fas fa-chevron-left"></i></a>
 
@@ -32,7 +32,8 @@ $card = $cards[$id];
                 <div class="destra">
 
                     @if ($id == (count($cards) - 1))
-                        <i class="fas fa-chevron-right"></i>
+                        <a href="{{route('products.show', 0)}}"><i class="fas fa-chevron-right"></i></a>
+
                     @else
                         <a href="{{route('products.show', ($id + 1))}}"><i class="fas fa-chevron-right"></i></a>
 

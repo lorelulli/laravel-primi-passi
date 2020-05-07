@@ -1,6 +1,7 @@
 @php
 $cards = config('products');
 $card = $cards[$id];
+
 @endphp
 
 @extends('layouts.layout')
@@ -20,13 +21,22 @@ $card = $cards[$id];
                 <p> {!!$card['descrizione']!!}</p>
 
                 <div class="sinistra">
+                    @if ($id == 0)
+                        <i class="fas fa-chevron-left"></i>
+                    @else
+                        <a href="{{route('products.show', ($id - 1))}}"><i class="fas fa-chevron-left"></i></a>
 
-                    <a href="{{route('products.show', ($id - 1))}}"><i class="fas fa-chevron-left"></i></a>
+                    @endif
 
                 </div>
                 <div class="destra">
 
-                    <a href="{{route('products.show', $id + 1)}}"><i class="fas fa-chevron-right"></i></a>
+                    @if ($id == (count($cards) - 1))
+                        <i class="fas fa-chevron-right"></i>
+                    @else
+                        <a href="{{route('products.show', ($id + 1))}}"><i class="fas fa-chevron-right"></i></a>
+
+                    @endif
 
                 </div>
 

@@ -1,0 +1,42 @@
+footer{
+    .up{
+        padding-top: 50px;
+        display: flex;
+        width: 80%;
+        margin: 0 auto;
+        padding: 20px;
+        justify-content: space-around;
+        @media screen and (max-width: 800px){
+
+            display: block;
+
+            width: 80%;
+            margin: 0 auto;
+
+        }
+        .prima{
+            line-height: 0.5;
+            p{
+                font-size: 12px;
+            }
+        }
+        .seconda{
+            h3{
+                font-size: 18px;
+
+            }
+            p{
+                font-size: 12px;
+            }
+        }
+        .terza{
+            h3{
+                font-size: 18px;
+            }
+            p{
+                font-size: 12px;
+            }
+        }
+
+    }
+}

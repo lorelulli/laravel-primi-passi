@@ -10966,6 +10966,47 @@ main .container-cards .hover h2 {
   font-size: 14px;
 }
 
+footer .up {
+  padding-top: 50px;
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 800px) {
+  footer .up {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+footer .up .prima {
+  line-height: 0.5;
+}
+
+footer .up .prima p {
+  font-size: 12px;
+}
+
+footer .up .seconda h3 {
+  font-size: 18px;
+}
+
+footer .up .seconda p {
+  font-size: 12px;
+}
+
+footer .up .terza h3 {
+  font-size: 18px;
+}
+
+footer .up .terza p {
+  font-size: 12px;
+}
+
 .card-background {
   background-color: #B8DAE5;
 }

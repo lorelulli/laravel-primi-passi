@@ -10971,7 +10971,6 @@ main .container-cards .hover h2 {
 }
 
 .card-background .card-products {
-  position: relative;
   text-align: center;
   width: 90%;
   margin: 0 auto;
@@ -10979,27 +10978,37 @@ main .container-cards .hover h2 {
   padding-bottom: 50px;
 }
 
-.card-background .card-products img {
+.card-background .card-products h2 {
+  padding-top: 40px;
+}
+
+.card-background .card-products .immagine {
+  position: relative;
+}
+
+.card-background .card-products .immagine img {
   width: 100%;
 }
 
-.card-background .card-products .sinistra {
+.card-background .card-products .immagine .sinistra {
   position: absolute;
   top: 50%;
+  transform: translateY(-50%);
 }
 
-.card-background .card-products .sinistra i {
+.card-background .card-products .immagine .sinistra i {
   font-size: 40px;
   cursor: pointer;
 }
 
-.card-background .card-products .destra {
+.card-background .card-products .immagine .destra {
   position: absolute;
   top: 50%;
+  transform: translateY(-50%);
   right: 0;
 }
 
-.card-background .card-products .destra i {
+.card-background .card-products .immagine .destra i {
   font-size: 40px;
   cursor: pointer;
 }

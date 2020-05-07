@@ -1,33 +1,41 @@
 .card-background{
     background-color: #B8DAE5;
     .card-products{
-        position: relative;
+
         text-align: center;
         width: 90%;
         margin: 0 auto;
         color: blue;
         padding-bottom: 50px;
-        img{
-            width: 100%;
+        h2{
+            padding-top: 40px;
         }
-        .sinistra{
-
-            position: absolute;
-            top: 50%;
-            i{
-                font-size: 40px;
-                cursor: pointer;
+        .immagine{
+            position: relative;
+            img{
+                width: 100%;
             }
-        }
-        .destra{
+            .sinistra{
 
-            position: absolute;
-            top: 50%;
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                i{
+                    font-size: 40px;
+                    cursor: pointer;
+                }
+            }
+            .destra{
 
-            right: 0;
-            i{
-                font-size: 40px;
-                cursor: pointer;
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+
+                right: 0;
+                i{
+                    font-size: 40px;
+                    cursor: pointer;
+                }
             }
         }
     }

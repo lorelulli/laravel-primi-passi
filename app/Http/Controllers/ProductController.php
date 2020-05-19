@@ -1,9 +1,10 @@
 <?php
 
 namespace App\Http\Controllers;
-use App\Product;
+
 
 use Illuminate\Http\Request;
+use App\Product;
 
 class ProductController extends Controller
 {
@@ -11,5 +12,6 @@ class ProductController extends Controller
 
         $products = Product::all();
         dd($products);
+        return view('welcome');
     }
 }
